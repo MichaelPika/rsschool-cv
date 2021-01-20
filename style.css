@@ -71,3 +71,26 @@ a {
 .social-icons section li a {
   padding: 0 30px 0 15px;
 }
+@media screen and (max-width: 535px) {
+  header .about img {
+    position: relative;
+    left: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .about img {
+    position: relative;
+    left: 110px;
+  }
+}
+@media screen and (max-width: 460px) {
+  header .about img {
+    position: relative;
+    left: 70px;
+  }
+}
+@media screen and (max-width: 310px) {
+  header .about img {
+    position: static;
+  }
+}
